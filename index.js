@@ -15,6 +15,8 @@ const teste = 'teste';
 mongoose.Promise = bluebird
 mongoose.connect(config.mongo.url)
 
+//comentário teste
+
 app.use(helmet())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
