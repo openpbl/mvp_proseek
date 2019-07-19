@@ -10,6 +10,8 @@ const routes = require('./routes')
 
 const app = express()
 
+const teste = 'teste';
+
 mongoose.Promise = bluebird
 mongoose.connect(config.mongo.url)
 
